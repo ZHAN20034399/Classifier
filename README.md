@@ -19,6 +19,25 @@ A machine learning–based tool for discriminating sulfide mineral deposit types
 
 ---
 
+## 软件说明图 / Software Diagrams
+
+### 图1  软件总体架构图 / Software Overall Architecture Diagram
+
+![图1 软件总体架构图](docs/figures/fig1_architecture.png)
+
+### 图2  训练数据逻辑模型图 / Training Data Logical Model Diagram
+
+![图2 训练数据逻辑模型图](docs/figures/fig2_data_model.png)
+
+### 图3  模型训练与预测数据流图 / Model Training and Prediction Data Flow Diagram
+
+![图3 模型训练与预测数据流图](docs/figures/fig3_dataflow.png)
+
+> 重新生成图片：在仓库根目录执行 `python docs/figures/generate_figures.py`  
+> Regenerate figures: run `python docs/figures/generate_figures.py` from the repo root.
+
+---
+
 ## 功能特点 / Features
 
 - 支持 **MLP**、**RF（随机森林）**、**XGBoost** 和 **Stacking 集成** 四种分类器
